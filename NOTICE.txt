@@ -1,0 +1,5 @@
+zlib-dev 1.3.1 for tOS
+======================
+
+Built from the release tarball beside this package (zlib-1.3.1.tar.gz), unmodified, with prefix /system/pkg/zlib-dev: headers in include/, libraries in lib/. gcc finds them by itself (its specs list this folder). License: Zlib (LICENSE).
+glibc: its programs and shared libraries are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.

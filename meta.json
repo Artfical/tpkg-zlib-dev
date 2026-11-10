@@ -1,0 +1,24 @@
+{
+ "name": "zlib-dev",
+ "version": "1.3.1",
+ "license": "Zlib",
+ "homepage": "https://zlib.net",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "zlib-1.3.1.tar.gz"
+ ],
+ "desc": "zlib 1.3.1 headers and libraries (libz.a, libz.so) for building programs with gcc",
+ "file": "zlib-dev-1.3.1.tpkg",
+ "size": 214296,
+ "sha256": "6b125513c121a5b2874cd63315ee5715ea78688c004141506986a65a372a39bb",
+ "unpacked": 498957,
+ "min_build": 615,
+ "depends": [
+  "gcc",
+  "zlib"
+ ],
+ "commands": {}
+}
